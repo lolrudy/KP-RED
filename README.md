@@ -1,6 +1,11 @@
-# [KP-RED]
+# KP-RED
+Offical Pytorch Implementation of CVPR2024 KP-RED: Exploiting Semantic Keypoints for Joint 3D Shape Retrieval and Deformation
 
-## Install
+[//]: # (&#40;[link]&#40;https://arxiv.org/abs/2203.07918&#41;&#41;)
+
+![pipeline](figures/kp-red-teaser.jpg)
+
+## Installation
 
 Install using [conda](https://docs.conda.io/en/latest/):
 ```
@@ -8,8 +13,10 @@ conda env create -f environment.yml
 conda activate kpred
 ```
 
-## Training
 Download [ShapeNet](https://shapenet.org/download/shapenetcore) to `data/shapenet/shape_data`.
+
+
+## Training
 
 To train the deformation module on the chair category with input of full target point clouds run:
 ```
@@ -51,3 +58,5 @@ python browse3d/browse3d.py --log_dir logs/chair/test --port 5050
 ```
 and open `localhost:5050` in your web browser.
 
+## Acknowledgment
+Our implementation leverages the code from [KeypointDeformer](https://tomasjakab.github.io/KeypointDeformer/).
