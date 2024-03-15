@@ -1,0 +1,15 @@
+subdir: test_partial
+phase: test 
+
+split: test
+
+ckpt:
+latent_ckpt: 
+
+n_workers: 4
+batch_size: 16
+
+load_mesh: True
+partial_pc: true
+points_dir:
+test_partial_ratio:

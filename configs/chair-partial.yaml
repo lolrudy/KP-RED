@@ -1,0 +1,17 @@
+name: chair
+
+category: 03001627
+split: train
+ 
+mesh_dir: data/shapenet/shape_data
+split_file: data/shapenet_split/partnet.csv
+log_dir: logs
+ 
+n_keypoints: 12
+n_iterations: 10000
+save_interval: 500
+lambda_influence_predict_l2: 0
+influence_bias_lr: 0
+partial_pc: true
+update_influence: true
+ckpt: 

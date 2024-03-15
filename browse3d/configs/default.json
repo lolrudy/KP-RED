@@ -1,0 +1,23 @@
+[
+    {
+        "title": "source",
+        "visuals": {
+            "obj": "source_mesh.obj",
+            "kpts": "source_keypoints.txt"
+        }
+    },
+    {
+        "title": "target",
+        "visuals": {
+            "obj": "target_mesh.obj",
+            "kpts": "target_keypoints.txt"
+        }
+    },
+    {
+        "title": "deformed",
+        "visuals": {
+            "obj": "deformed_mesh.obj",
+            "kpts": "target_keypoints.txt"
+        }
+    }
+]

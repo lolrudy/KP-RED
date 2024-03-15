@@ -1,0 +1,12 @@
+subdir: test
+phase: test 
+
+split: test
+
+ckpt:
+latent_ckpt:
+
+n_workers: 4
+batch_size: 16
+
+load_mesh: True
