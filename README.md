@@ -1,7 +1,7 @@
 # KP-RED
 Offical Pytorch Implementation of CVPR2024 KP-RED: Exploiting Semantic Keypoints for Joint 3D Shape Retrieval and Deformation
 
-[//]: # (&#40;[link]&#40;https://arxiv.org/abs/2203.07918&#41;&#41;)
+[Paper](https://arxiv.org/abs/2403.10099)
 
 ![pipeline](figures/kp-red-teaser.jpg)
 
