@@ -5,6 +5,10 @@ Offical Pytorch Implementation of CVPR2024 KP-RED: Exploiting Semantic Keypoints
 
 ![pipeline](figures/kp-red-teaser.jpg)
 
+## Update
+
+We identified an error in our baseline experiments, re-ran them, and updated the results without impacting the paper's conclusions. Please check out the updated version on Arxiv. We apologize for the oversight and appreciate your understanding.
+
 ## Installation
 
 Install using [conda](https://docs.conda.io/en/latest/):
