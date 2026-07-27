@@ -64,3 +64,12 @@ and open `localhost:5050` in your web browser.
 
 ## Acknowledgment
 Our implementation leverages the code from [KeypointDeformer](https://tomasjakab.github.io/KeypointDeformer/).
+
+## License
+
+This project is released under the [Apache License 2.0](LICENSE). It includes code
+derived from third-party projects; their original copyright and license
+notices are preserved in the [NOTICE](NOTICE) file.
+
+ShapeNet and any other externally obtained datasets are not covered by this
+license and remain subject to their respective terms of use.
